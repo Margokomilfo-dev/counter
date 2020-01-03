@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Yoga</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="content">
+		<div class="container" id="about">
+			<div class="counter" id="price">
+				<div class="counter-title">Рассчитайте стоимость вашего отдыха
+				</div>
+				<div class="counter-block">
+					<div class="counter-block-option">Количество людей</div>
+					<input type="number" min="1" step="1" class="counter-block-input">
+				</div>
+				<div class="counter-block">
+					<div class="counter-block-option">На сколько дней</div>
+					<input type="number" min="1" step="1" class="counter-block-input">
+				</div>
+				<div class="counter-block">
+					<div class="counter-block-option">Выберете базу</div>
+					<select name="place" id="select">
+						<option id="mumbai" value="1">Индия, Мумбай</option>
+						<option id="kerala" value="1.5">Индия, Керала</option>
+						<option id="varanasi" value="1.8">Индия, Варанаси</option>
+					</select>
+				</div>
+				<div class="counter-total">
+					Общая сумма<br>
+					<span id="total">20456</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
